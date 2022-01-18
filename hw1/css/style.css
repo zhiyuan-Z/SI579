@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 10%;
+    margin-bottom: 4rem;
+}
+
+.main_container {
+    padding: 0 4rem;
+}
+
+main > nav {
+	position: sticky;
+	top: 5%;
+	align-self: start;
+
+    border-right: 1px solid rgb(60,60,60);
+    height: 90vh;
+    color: rgb(60,60,60);
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active, .active a {
+    color: black;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+}
+
+.main_container > img {
+    float: right;
+    margin: 1rem;
+    max-width: 40%;
+    height: auto;
+}
