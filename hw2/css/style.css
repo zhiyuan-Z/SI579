@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #163172;
+    background-color: rgba(0,0,0,.01);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 10%;
+    margin-bottom: 4rem;
+}
+
+.main_container {
+    padding: 0 4rem;
+}
+
+main > nav {
+	position: sticky;
+	top: 5%;
+	align-self: start;
+
+    border-right: 1px solid rgb(60,60,60);
+    height: 90vh;
+    color: rgb(60,60,60);
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    color: #1E56A0;
+}
+
+nav .active, nav .active a {
+    color: #163172;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+}
+
+.main_container > img {
+    float: right;
+    margin: 1rem;
+    max-width: 40%;
+    height: auto;
+}
