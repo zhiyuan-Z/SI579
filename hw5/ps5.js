@@ -108,7 +108,7 @@ function getDatamuseSimilarToUrl(ml) {
 function addToSavedWords(word) {
     // You'll need to finish this...
     savedWordsArray.push(word);
-    savedWords.textContent = savedWordsArray.join();
+    savedWords.textContent = savedWordsArray.join(', ');
 }
 
 // Add additional functions/callbacks here.
