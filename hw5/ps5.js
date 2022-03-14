@@ -112,6 +112,8 @@ function addToSavedWords(word) {
 }
 
 // Add additional functions/callbacks here.
+savedWords.textContent = '(none)';
+
 function rhymeCallback(data) {
     if (data.length !== 0) {
         result = document.createElement('div');
